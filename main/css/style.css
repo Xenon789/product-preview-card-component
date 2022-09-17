@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+main {
+    height: 600px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    height: 400px;
+    width: 533.32px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.card img {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 400px;
+}
+
+.right {
+    padding: 30px;
+}
+
+.perfume {
+    letter-spacing: 5px;
+    color: lightslategrey;
+    margin-bottom: -10px;
+}
+
+.right h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.right p {
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.price-drop {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.price-drop h3 {
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.crossout {
+    color: lightslategray;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.right button {
+    background-color: darkslategray;
+    border: none;
+    padding: 10px 65px;
+    border-radius: 5px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon {
+    height: 15px;
+    flex: 15%;
+}
+
+.right button:hover {
+    cursor: pointer;
+}
