@@ -37,7 +37,7 @@ main {
 
 .perfume {
     letter-spacing: 5px;
-    color: lightslategrey;
+    color: hsl(228, 12%, 48%);
     margin-bottom: -10px;
 }
 
@@ -48,6 +48,7 @@ main {
 }
 
 .right p {
+    color: hsl(228, 12%, 48%);
     margin-bottom: 15px;
     line-height: 25px;
     font-size: 12px;
@@ -65,19 +66,21 @@ main {
 }
 
 .crossout {
-    color: lightslategray;
+    color: hsl(228, 12%, 48%);
     font-size: 11px;
     text-decoration: line-through;
 }
 
 .right button {
-    background-color: darkslategray;
+    background-color: hsl(228, 12%, 48%);
     border: none;
-    padding: 10px 65px;
+    width: 100%;
+    padding: 10px;
     border-radius: 5px;
     color: white;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
 
 .icon {
@@ -87,4 +90,8 @@ main {
 
 .right button:hover {
     cursor: pointer;
+}
+
+.right button:active {
+    background-color: darkslategray;
 }
